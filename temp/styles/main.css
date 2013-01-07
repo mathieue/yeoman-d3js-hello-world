@@ -6155,3 +6155,9 @@ a.label:hover, a.badge:hover {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+/* line 3, ../../app/styles/main.scss */
+.chart rect {
+  stroke: white;
+  fill: steelblue;
+}
