@@ -7,6 +7,10 @@ var yeomanD3jsHelloWorldApp = angular.module('yeomanD3jsHelloWorldApp', ['ghD3']
     templateUrl: 'views/main.html',
     controller: 'MainCtrl'
   })
+  .when('/vertical-bar', {
+    templateUrl: 'views/vertical-bar.html',
+    controller: 'Vertical-BarCtrl'
+  })
   .otherwise({
     redirectTo: '/'
   });
