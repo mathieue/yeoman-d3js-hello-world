@@ -23,8 +23,7 @@ yeomanD3jsHelloWorldApp.directive('ghD3', function () {
     restrict: 'E',
     terminal: true,
     scope: {
-      val: '=',
-      grouped: '='
+      val: '='
     },
 
     link: function (scope, element, attrs) {
@@ -61,7 +60,7 @@ yeomanD3jsHelloWorldApp.directive('ghD3', function () {
           .attr("width", x)
           .attr("height", 20);
         // display done..
-        
+
       });
     }
   };
